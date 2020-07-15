@@ -23,16 +23,18 @@
 <div class="headline">Demo Webpage for Scraping</div>
 <div class="text">
 	<p>This page holds some content to demo scraping.</p>
-   <p>There's a table that shows the NFL salaries of all players during the 2019 season.</p>
-	<p> There's a random table before the NFL salaries.</p>
-  <p>In between the two tables is non-tabular data</p>
-
-
-
+	
+	<ul>
+		<li><a href="#bev">Morning Beverages</a></li>
+		<li><a href="#organized">Organized Data</a></li>
+		<li><a href="#disorganized">Disorganized Data</a></li>
+		<li><a href="#nfl_table">Tabular Data</a></li>
+	</ul>
 </div>
 
+<section id="bev">
 <table class="full_table" id="beverages">
-  <h3>Caffeine Content of Morning Beverages</h3>
+  <h2>Caffeine Content of Morning Beverages</h2>
   <thead>
     <tr>
       <th class="table-head">Drink</th>
@@ -45,7 +47,6 @@
 <td >Coke Zero</td>
       <td>16</td>
       <td>230 grams</td>
-
     </tr>
     <tr>
 <td>Chai Latte</td>
@@ -58,14 +59,12 @@
       <td>16</td>
       <td>150</td>
     </tr>
-
   </tbody>
 </table>
+</section>
 
-<section class="organized">
-
+<section id="organized">
 <h2>Organized - Top 5 Compensated CEOs in 2018</h2>
-
 <div class="ceo">
   <p class="rank"><span>Rank:</span> 1</p>
 <p class="name"><span>Name:</span> Hock E. Tan</p>
@@ -103,10 +102,8 @@
 
 </section>
 
-<section class = "disorganized">
-
+<section id = "disorganized">
 <h2>Disorganized - Top 5 Compensated CEOs in 2018</h2>
-
 <div class="ceo">
 <span>Rank:</span><dt> 1</dt>
 <span>Name:</span><dt> Hock E. Tan</dt>
@@ -141,10 +138,9 @@
 <span>Annual Compensation:</span><dt> $67.2 million</dt>
 <span>Company:</span><dt> Liberty Media & Qurate Retail Group</dt>
 </div>
-
 </section>
 
-
+<section id="nfl_table">
 <table class="full_table" id="nfl_salaries">
 	<h3>NFL Salaries 2019</h3>
   <thead>
@@ -11642,7 +11638,7 @@
     </tr>
   </tbody>
 </table>
-
+</section>
 </div>
 
 

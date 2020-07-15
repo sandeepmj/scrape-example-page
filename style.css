@@ -10,6 +10,10 @@ div {
   padding: 5px;
 }
 
+section {
+  padding-top: 20px;
+}
+
 
 div p span{
   font-weight: 900;
@@ -39,6 +43,11 @@ section span {
     border-collapse: collapse;
     border-spacing: 0;
     /*margin: 0 auto;*/
+}
+thead {
+  text-transform: uppercase;
+      background-color: #3f87a6;
+    color: #fff;
 }
 
 .full_table td {
@@ -73,6 +82,7 @@ section span {
 .table-head {
     text-align: left;
     vertical-align: bottom
+
 }
 
 .full_table .player_name, .player_team, .drink_name, .drink_ {
