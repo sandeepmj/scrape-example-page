@@ -114,6 +114,6 @@ thead {
   border-radius: 5px;
 }
 
-.pages {
-  line-height: 1;
+.downloadable {
+  padding-bottom: 40px;
 }
