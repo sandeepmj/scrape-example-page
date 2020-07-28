@@ -113,3 +113,7 @@ thead {
   background-color: #ddd;
   border-radius: 5px;
 }
+
+.pages {
+  line-height: 1;
+}
