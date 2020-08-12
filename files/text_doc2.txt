@@ -1,1 +1,3 @@
-This is text from document 2.
+Client: Help Desk Inc.
+
+The decision is to renew rental agreement.
