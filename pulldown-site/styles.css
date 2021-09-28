@@ -1,0 +1,53 @@
+body {
+	background-color: #a3a8b5;
+}
+
+.main {
+	background-color: white;
+	max-width: 500px;
+	margin:  0 auto;
+	height:  600px;
+	padding:  20px;
+}
+
+.dropdown {
+	padding:  10px;
+}
+
+.table-date {
+	margin:  0 auto;
+	text-align: center;
+	font-size: 2em;
+}
+
+.sub-data {
+	background-color: #ebedf2;
+	padding:  10px;
+	text-align: center;
+}
+
+.all-data {
+	background-color: white;
+	padding:  10px;
+}
+
+
+dl dt {
+    clear: left;
+}
+dd {
+    display: block;
+    margin-inline-start: 30px;
+    padding-bottom: 10px;
+}
+
+dl dt  {
+    float: left;
+    /*width: 50%;*/
+    /*text-align: right;*/
+    padding: 0;
+    margin: 2px 0px 3px 0px;
+    font-size: 18px;
+    font-size: 1.125rem/pxrem;
+    font-weight: normal;
+}
